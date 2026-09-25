@@ -1,0 +1,12 @@
+---
+description: raBooks Enterprise Financial Core Engineering Directive
+globs: **/*
+---
+
+# raBooks Enterprise Core Directive
+- Integer Paisa Precision: Currency amounts must be stored and computed as signed 64-bit integer paise.
+- Split Reconciliation Invariant: Delta between transaction total and allocated split rows must strictly be 0 paise.
+- Dual-ID Decoupling: Canonical internal 'RB-TXN-XXXXXX' vs external UTR rail references.
+- Spooler Sovereignty: Direct window.print() or detached Blob-URL window without forcing PDF file downloads.
+- Corporate English: Strictly formal financial terminology.
+- Non-Repudiation Audit: All mutations committed with audit_log entry.

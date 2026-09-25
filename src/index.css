@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    background-color: #f8fafc;
+    color: #0f172a;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'Plus Jakarta Sans', 'Inter', -apple-system, sans-serif;
+  }
+
+  .font-mono, code, kbd, samp, pre, .font-numeric {
+    font-family: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+@media print {
+  @page {
+    margin: 10mm;
+  }
+
+  body {
+    background: #ffffff !important;
+    color: #000000 !important;
+  }
+
+  .no-print {
+    display: none !important;
+  }
+
+  .print-exact {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+
+  /* 80mm Continuous Thermal Roll Print Rule */
+  @page thermal-80mm {
+    size: 80mm auto;
+    margin: 3mm;
+  }
+
+  .thermal-80mm-page {
+    page: thermal-80mm;
+    width: 74mm !important;
+    max-width: 74mm !important;
+    margin: 0 auto !important;
+    padding: 2mm !important;
+  }
+}

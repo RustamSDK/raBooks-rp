@@ -1,0 +1,8 @@
+# Windsurf Cascade Directives
+Target: raBooks by Rustam
+Directives:
+- Always review .agent-scratchpad.md before executing code mutations.
+- Format all numeric displays using 'font-mono tabular-nums'.
+- Enforce exact zero difference before committing split transactions.
+- Route print actions to native print dialogs rather than forced PDF downloads.
+- Use signed integer paise for all monetary values.

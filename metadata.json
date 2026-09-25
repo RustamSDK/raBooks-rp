@@ -1,0 +1,6 @@
+{
+  "name": "raBooks by Rustam",
+  "description": "Industrial-grade local-first enterprise financial core, double-entry ledger, and debt restructuring system with integer precision, split reconciliation, and AI ledger copilot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

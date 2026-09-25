@@ -1,0 +1,7 @@
+# Cursor Rules for raBooks Enterprise
+- Reference rabooks_master_vibe_coding_engineering_constitution.md as ground truth.
+- Standalone Mandate: When modifying standalone index.html, all CSS, JS, and HTML must reside entirely in that single file.
+- Monorepo Mandate: When modifying packages/*, enforce strict domain boundaries.
+- No loose floating-point math. Use integer arithmetic and Math.floor() for remainder absorption.
+- Output complete, runnable files without '// ... rest of code' comments.
+- Maintain dual-ID separation: internal 'RB-TXN-XXXXXX' vs external UTR rail references.
